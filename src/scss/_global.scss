@@ -22,15 +22,22 @@
   }
 }
 @font-face {
-  font-family: "Lato Regular";
-  src: url("/fonts/lato-regular.woff2") format("woff2"); /* Modern Browsers */
+  font-family: 'Lato';
   font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/lato-regular.woff2") format("woff2");
+  font-weight: 500;
+  src: url("/fonts/lato_medium.woff2") format("woff2");
+  font-weight: 600;
+  src: url("/fonts/lato_semibold.woff2") format("woff2");
+  font-weight: 900;
+  src: url("/fonts/lato_black.woff2") format("woff2");
 }
 // Body Locked
 body {
   min-width: 480px;
   overflow-x: hidden;
-  font-family: 'Lato Regular', sans-serif;
+  font-family: 'Lato', sans-serif;
   &.locked {
     overflow: hidden;
   }
