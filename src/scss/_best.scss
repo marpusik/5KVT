@@ -1,0 +1,23 @@
+.slider {
+  margin-top: 90px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #383838;
+}
+.swiper {
+  &__arrows {
+    @extend .fc;
+    margin: 105px 0 70px;
+  }
+}
+.swiper-button-lock {
+  display: table-caption !important;
+}
+.slide {
+  &__img {
+    height: 263px;
+  }
+}

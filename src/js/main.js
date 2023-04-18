@@ -51,3 +51,18 @@ const swiper = new Swiper('.swiper', {
   //   },
   // }
 });
+const swiper2 = new Swiper('.swiper__recently', {
+  slidesPerView: 2,
+  spaceBetween: 60,
+  breakpoints: {
+    992: {
+      slidesPerView: 3,
+      // spaceBetween: 20
+    }
+  },
+  navigation: {
+    nextEl: '.next__btn',
+    prevEl: '.prev__btn',
+  },
+});
+
