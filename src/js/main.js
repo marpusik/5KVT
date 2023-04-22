@@ -53,11 +53,11 @@ const swiper = new Swiper('.swiper', {
 });
 const swiper2 = new Swiper('.swiper__recently', {
   slidesPerView: 2,
-  spaceBetween: 60,
+  spaceBetween: 10,
   breakpoints: {
     992: {
-      slidesPerView: 3,
-      // spaceBetween: 20
+      slidesPerView: 4,
+      spaceBetween: 10,
     }
   },
   navigation: {

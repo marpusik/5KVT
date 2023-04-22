@@ -17,11 +17,13 @@ h2 {
   display: flex;
   gap: 10px;
 }
-.swiper-button-lock {
-  display: table-caption !important;
-}
 .swiper-wrapper {
   gap: 30px;
+}
+.swiper-slider{
+  position: inherit !important;
+  margin-right: 0px !important;
+  width: 263px !important;
 }
 .slide {
   &__img {
@@ -47,6 +49,9 @@ h2 {
     justify-content: center;
     gap: 11px;
     padding: 18px 0;
+    img{
+      position: inherit;
+    }
   }
 }
 h3 {
@@ -57,10 +62,14 @@ h3 {
 }
 .slide__price {
   @extend .fc;
+  align-items: baseline;
   p {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #383838;
+  }
+  img{
+    position: inherit;
   }
 }
