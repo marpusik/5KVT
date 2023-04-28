@@ -173,3 +173,14 @@ nav {
     color: white;
   }
 }
+@media (max-width: 1300px) {
+  .container{
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1050px) {
+  .navbar{
+    flex-wrap: wrap;
+  }
+
+}
