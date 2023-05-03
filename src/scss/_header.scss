@@ -57,15 +57,15 @@ nav {
   @extend .fc;
   background: #F7F7F7;
   border-radius: 3px;
-  & .btn{
+  & .btn {
     padding: 18px 15px;
-    & a{
+    & a {
       @extend .fc;
       color: white;
       gap: 15px;
     }
   }
-  & .two{
+  & .two {
     background: linear-gradient(90deg, #383838 -70.49%, rgba(56, 56, 56, 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -174,13 +174,51 @@ nav {
   }
 }
 @media (max-width: 1300px) {
-  .container{
+  .container {
     padding: 0 50px;
   }
 }
 @media (max-width: 1050px) {
-  .navbar{
+  .navbar {
     flex-wrap: wrap;
   }
-
+}
+@media (max-width: $breakpoint992) {
+  .left, .centr, .soc, .but {
+    display: none;
+  }
+  .right {
+    position: relative;
+    left: 260px;
+  }
+  nav {
+    padding-top: 56px;
+  }
+  .logo {
+    position: relative;
+    bottom: 70px;
+  }
+  .user {
+    position: relative;
+    bottom: 70px;
+    right: 275px;
+  }
+  .burger {
+    position: relative;
+    bottom: 130px;
+    left: 850px;
+  }
+  .navbar {
+    border-top: 1px solid #C9C9C9;
+    padding: 15px 0;
+    a:nth-child(2),a:nth-child(3) {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #383838;
+      background: url(../img/tel.svg) no-repeat left -20px bottom;
+      background-origin: content-box;
+      padding-left: 20px;
+    }
+  }
 }
