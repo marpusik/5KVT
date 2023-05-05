@@ -1,15 +1,18 @@
-.swiper-slide img{
+.swiper-slide img {
   position: absolute;
 }
-.swiper-box{
+
+.swiper-box {
   position: relative;
   width: 645px;
   height: 500px;
   padding: 70px 0px 70px 100px;
-  a{
+
+  a {
     padding: 18px 50px;
   }
-  img{
+
+  img {
     width: 55px;
     height: 55px;
     position: relative;
@@ -17,21 +20,52 @@
     left: 290px;
   }
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
   left: 215px !important;
   top: -16px !important;
 }
-h1{
+
+h1 {
   font-weight: 600;
   font-size: 64px;
   line-height: 77px;
   color: #FFFFFF;
 }
-p{
+
+p {
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
   color: #9C9C9C;
   width: 275px;
   padding: 15px 0 45px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+    padding-left: 60px;
+  }
+  .swiper-box {
+    padding-left: 0px;
+    .inner {
+      position: relative;
+      top: 200px;
+      &-img{
+        position: relative;
+        right: -115px;
+      }
+    }
+    a{
+      padding: 18px 110px;
+    }
+    p{
+      margin-left: 60px;
+    }
+  }
+  .swiper {
+    height: 600px;
+  }
 }
