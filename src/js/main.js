@@ -23,7 +23,7 @@ function burgerMenu() {
   })
 }
 burgerMenu()
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper__first', {
   slidesPerView: 1,
   // spaceBetween: 10,
   breakpoints: {
@@ -42,7 +42,7 @@ const swiper2 = new Swiper('.swiper__recently', {
   spaceBetween: 10,
   breakpoints: {
     992: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 10,
     }
   },
