@@ -39,11 +39,11 @@ const swiper = new Swiper('.swiper__first', {
 });
 const swiper2 = new Swiper('.swiper__recently', {
   slidesPerView: 2,
-  spaceBetween: 10,
+  // spaceBetween: 10,
   breakpoints: {
     992: {
-      slidesPerView: 3,
-      spaceBetween: 10,
+      slidesPerView: 2,
+      // spaceBetween: 10,
     }
   },
   navigation: {
