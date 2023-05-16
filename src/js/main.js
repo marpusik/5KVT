@@ -52,6 +52,14 @@ const swiper2 = new Swiper('.swiper__recently', {
   },
 });
 const swiper3 = new Swiper('.swiper__edge', {
+  slidesPerView: 1,
+  // spaceBetween: 10,
+  breakpoints: {
+    992: {
+      slidesPerView: 1,
+      // spaceBetween: 10,
+    }
+  },
   pagination: {
     el: '.swiper-pagination',
   },
