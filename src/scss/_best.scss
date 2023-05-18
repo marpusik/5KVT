@@ -100,7 +100,7 @@ h3 {
 
 @media (max-width: 640px) {
   .swiper-slider {
-    width: 210px !important;
+    width: 200px !important;
     height: 400px;
   }
   .slide__img {
@@ -137,5 +137,8 @@ h3 {
   .swiper__arrows {
     justify-content: center;
     margin: 30px 0 30px;
+  }
+  .none{
+    display: none;
   }
 }
