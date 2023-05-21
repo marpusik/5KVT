@@ -35,7 +35,7 @@ footer {
     padding-top: 10px;
   }
 }
-h6 {
+h6{
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -76,37 +76,6 @@ h6 {
   display: none;
 }
 @media (max-width: 550px) {
-  .footer-wrap {
-    display: block;
-  }
-  footer {
-    margin-top: 30px;
-  }
-  .wrap-one {
-    p:nth-child(2), p:nth-child(3) {
-      margin-left: 300px;
-    }
-    img {
-      display: none;
-    }
-    p:nth-child(4) {
-      bottom: 38px;
-      position: relative;
-      margin-bottom: -40px;
-    }
-  }
-  .one {
-    display: none;
-  }
-  .one__active {
-    display: flex;
-    border-bottom: 1px solid #c9c9c9;
-    width: 100%;
-    padding-bottom: 25px !important;
-  }
-  h6 {
-    padding-top: 25px;
-  }
   .accordion {
     display: inherit;
     .accordion__item {
@@ -139,13 +108,9 @@ h6 {
           color: #8547C6;
         }
         .trigger__text {
-          font-style: normal;
-          font-weight: bold;
-          font-size: 16px;
+          font-size: 18px;
           line-height: 22px;
-          letter-spacing: 0.035em;
-          color: #000000;
-          margin-left: 10px;
+          color: #FFFFFF;
         }
         .trigger__img {
           position: relative;
@@ -154,14 +119,14 @@ h6 {
             display: block;
             width: 18px;
             height: 2px;
-            background: black;
+            background: white;
             border-radius: 100px;
           }
           .line2 {
             display: block;
             width: 18px;
             height: 2px;
-            background: black;
+            background: white;
             margin-top: -2px;
             border-radius: 100px;
             transform: rotate(90deg);
@@ -181,5 +146,48 @@ h6 {
         }
       }
     }
+  }
+  .footer-wrap {
+    display: block;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .wrap-one {
+    p:nth-child(2), p:nth-child(3) {
+      margin-left: 300px;
+    }
+    img {
+      display: none;
+    }
+    p:nth-child(4) {
+      bottom: 38px;
+      position: relative;
+      margin-bottom: -40px;
+    }
+  }
+  .one {
+    display: none;
+  }
+  .one__active {
+    display: flex;
+    border-bottom: 1px solid #c9c9c9;
+    width: 100%;
+    padding-bottom: 25px !important;
+  }
+  h6 {
+    padding-top: 25px;
+  }
+  .wrap-two, .wrap-three, {
+    display: none;
+  }
+  .wrap-four{
+    padding-top: 32px;
+    a{
+      justify-content: space-evenly;
+    }
+  }
+  .wrap{
+    padding: 0px;
   }
 }
