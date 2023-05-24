@@ -75,11 +75,11 @@ const swiper4 = new Swiper('.swiper__catalog', {
         }
     },
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.button-next',
+        prevEl: '.button-prev',
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: '.pagination',
     },
 });
 

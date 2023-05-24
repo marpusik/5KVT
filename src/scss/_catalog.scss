@@ -64,10 +64,16 @@
 }
 .catalog__inner {
   display: flex;
+  gap: 30px;
   &--left {
     background: #F7F7F7;
+    width: 263px;
   }
   &--right {
     width: 850px;
   }
+}
+.swiper__catalog .swiper-wrapper{
+  flex-wrap: wrap;
+  width: 134%;
 }
