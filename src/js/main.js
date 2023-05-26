@@ -80,6 +80,10 @@ const swiper4 = new Swiper('.swiper__catalog', {
     },
     pagination: {
         el: '.pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
     },
 });
 

@@ -1,7 +1,7 @@
 <catalog>
     <div class="container">
         <div class="catalog">
-            <div class="catalog__title">Главная</div>
+            <a href="././index.html" class="catalog__title">Главная</a>
             <div class="catalog__arrow"><img class="" src="./img/menu-link.svg" alt=""></div>
             <div class="catalog__list">Каталог товаров</div>
         </div>
@@ -33,9 +33,9 @@
         <div class="catalog__inner">
             <div class="catalog__inner--left">
                 <div class="catalog__item-row row">
-                    <div class="row-title">Категория</div>
-                    <div class="select-wrapper">
-                        <select name="chose">
+                    <div class="row-title categories">Категория</div>
+                    <div class="select-wrapper chose">
+                        <select class="chose" name="chose">
                             <option value="heating">Отопление</option>
                             <option value="heating">Отопление</option>
                             <option value="heating">Отопление</option>
@@ -43,8 +43,8 @@
                     </div>
                 </div>
                 <div class="catalog__item-row row">
-                    <div class="row-title">Категория</div>
-                    <div class="select-wrapper">
+                    <div class="row-title categories">Категория</div>
+                    <div class="select-wrapper chose">
                         <select name="chose">
                             <option value="heating">Отопление</option>
                             <option value="heating">Отопление</option>
@@ -52,7 +52,8 @@
                         </select>
                     </div>
                 </div>
-                <label>Цена<input type="text" size="3" placeholder="от">:
+                <label class="label">Цена
+                    <input type="text" size="3" placeholder="от">:
                     <input type="text" size="3" placeholder="до">
                 </label>
                 <div class="row">
@@ -222,9 +223,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pagination"></div>
-                    <div class="button-prev"><img class="" src="./img/arrow-left.svg" alt=""></div>
-                    <div class="button-next"><img class="" src="./img/arrow-right.svg" alt=""></div>
+                    <div class="button__wrap">
+                        <div class="button-prev"><img class="" src="./img/arrow-left.svg" alt=""></div>
+                        <div class="pagination"></div>
+                        <div class="button-next"><img class="" src="./img/arrow-right.svg" alt=""></div>
+                    </div>
                 </div>
             </div>
         </div>
