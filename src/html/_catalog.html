@@ -9,7 +9,7 @@
             <h2 class="catalog__item-title">Каталог товаров</h2>
             <div class="catalog__item-wrap">
                 <div class="catalog__item-row row">
-                    <div class="row-title">Сортировать:</div>
+                    <div class="row-title row-title--other">Сортировать:</div>
                     <div class="select-wrapper">
                         <select name="chose">
                             <option value="actual">по актуальности</option>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="catalog__item-row row">
-                    <div class="row-title">Сортировать:</div>
+                    <div class="row-title row-title--other">Сортировать:</div>
                     <div class="select-wrapper">
                         <select name="chose">
                             <option value="actual">по актуальности</option>
@@ -27,6 +27,7 @@
                             <option value="actual">по актуальности</option>
                         </select>
                     </div>
+                    <a href="#"></a>
                 </div>
             </div>
         </div>
@@ -53,8 +54,10 @@
                     </div>
                 </div>
                 <label class="label">Цена
-                    <input type="text" size="3" placeholder="от">:
+                    <span class="label__inner">
+                        <input type="text" size="3" placeholder="от">:
                     <input type="text" size="3" placeholder="до">
+                    </span>
                 </label>
                 <div class="row">
                     <span class="row-title">Бренд</span>
@@ -81,7 +84,7 @@
                 </div>
                 <div class="row">
                     <span class="row-title">Другое</span>
-                    <label class="checkbox-label">
+                    <label class="checkbox-label other">
                         <input class="checkbox" type="checkbox" name="return">
                         <span class="checkbox-title">Новинки</span>
                         <input class="checkbox" type="checkbox" name="return">
@@ -89,8 +92,8 @@
                     </label>
                 </div>
                 <div class="row">
-                    <span class="row-title">Доставука и наличие</span>
-                    <label class="checkbox-label">
+                    <span class="row-title">Доставка и наличие</span>
+                    <label class="checkbox-label other">
                         <input class="checkbox" type="checkbox" name="return">
                         <span class="checkbox-title">Доставка</span>
                         <input class="checkbox" type="checkbox" name="return">
