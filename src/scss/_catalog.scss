@@ -157,6 +157,9 @@
   padding: 0;
   border-top: none;
 }
+.catalog__item-img{
+  display: none;
+}
 @media (max-width: 1185px) {
   .star{
     margin-right: 20px!important;
@@ -234,5 +237,8 @@
   }
   .catalog__item-row:nth-child(2){
     display: none;
+  }
+  .catalog__item-img{
+    display: inherit;
   }
 }
