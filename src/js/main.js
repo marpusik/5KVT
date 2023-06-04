@@ -106,7 +106,7 @@ function accordion() {
 accordion()
 
 document.addEventListener('DOMContentLoaded', function() {
-    var element = document.querySelector('.swiper-wrapper');
+    const element = document.querySelector('.swiper-wrapper');
     element.addEventListener('click', function() {
         window.location.href = 'http://localhost:3000/cards.html';
     });
