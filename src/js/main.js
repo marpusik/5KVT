@@ -105,12 +105,11 @@ function accordion() {
 }
 accordion()
 
-document.addEventListener('DOMContentLoaded', function() {
-    const element = document.querySelector('.swiper-wrapper');
-    element.addEventListener('click', function() {
-        window.location.href = 'http://localhost:3000/cards.html';
-    });
-});
-
+// document.addEventListener('DOMContentLoaded', function() {
+//     const element = document.querySelector('.swiper-wrapper');
+//     element.addEventListener('click', function() {
+//         window.location.href = 'http://localhost:3000/cards.html';
+//     });
+// });
 
 
