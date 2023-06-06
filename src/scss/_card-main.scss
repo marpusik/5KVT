@@ -67,3 +67,16 @@ input[type=number]::-webkit-outer-spin-button {
     position: inherit;
   }
 }
+.card {
+  background: #F7F7F7;
+  max-width: 555px;
+  padding: 30px;
+  &-one {
+    h2 {
+      width: 80%;
+    }
+    span {
+      color: #9C9C9C;
+    }
+  }
+}
