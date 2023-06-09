@@ -9,6 +9,11 @@ footer {
     width: fit-content;
   }
 }
+.footer-card{
+  .card{
+    padding: 0px;
+  }
+}
 .wrap {
   @extend .fc;
   padding: 45px 0;
