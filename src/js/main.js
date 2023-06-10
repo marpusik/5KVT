@@ -86,6 +86,21 @@ const swiper4 = new Swiper('.swiper__catalog', {
         },
     },
 });
+const swiper5 = new Swiper('.swiper__character', {
+    slidesPerView: 1,
+    // spaceBetween: 10,
+    breakpoints: {
+        992: {
+            slidesPerView: 1,
+            // spaceBetween: 10,
+        }
+    },
+    navigation: {
+        nextEl: '.character-next',
+        prevEl: '.character-prev',
+    },
+});
+
 
 function accordion() {
     const items = document.querySelectorAll('.accordion__item-trigger')
