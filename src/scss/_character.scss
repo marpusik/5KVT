@@ -146,10 +146,49 @@
       margin: 30px auto 0;
     }
   }
-  .swiper__character .swiper__arrows{
+  .swiper__character .swiper__arrows {
     justify-content: space-between;
   }
 }
 @media (max-width: $breakpoint768) {
-
+  .box-one {
+    gap: none;
+    h4 {
+      font-size: 13px;
+    }
+    span {
+      font-size: 13px;
+    }
+  }
+  .descript__left {
+    width: auto;
+    p {
+      font-size: 13px;
+      width: auto;
+    }
+  }
+  .descript__right {
+    width: auto;
+    .slide__box {
+      font-size: 13px;
+      width: auto;
+    }
+  }
+  .swiper__recently {
+    h2 {
+      font-size: 20px;
+    }
+    .swiper-wrapper {
+      flex-wrap: nowrap;
+    }
+  }
+  .character__wrap {
+    width: auto;
+    h3 {
+      font-size: 15px;
+    }
+    .character__box{
+      justify-content: space-evenly;
+    }
+  }
 }
